@@ -1,0 +1,78 @@
+body{
+    font-family:sans-serif;
+    width:1200px;
+    margin:10px auto 25px auto;
+}
+
+header{
+    text-align:left;
+    margin:40px;
+}
+
+form {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:60px;
+}
+
+form input{
+    padding: 20px;
+    border-radius:10px;
+    margin-right:20px;
+    width:800px;
+    font-size:20px;
+    border:1px solid lightgrey;
+}
+
+form button{
+    color:white;
+    background:rgb(22, 86, 126);
+    padding:20px;
+    border-radius:10px;
+    border:none;
+    font-size:20px;
+}
+
+.newCheckbox, 
+.newTrashcan {
+    width:20px;
+    height:20px;
+    border:none;
+}
+
+.newCheckbox{
+    margin-right:60px;
+    order:-1;
+}
+
+.newTrashcan{
+    background:white;
+    color:red;
+    font-size:20px;
+}
+
+#listOfTasks{
+    box-sizing:content-box;
+    width:100%;
+    list-style:none;
+    border:2px solid lightgrey;
+    border-radius:14px;
+    padding:0px 3px 2px 3px;
+}
+
+ul{
+    margin:0px;
+    padding:0px;
+}
+
+.newLi{
+    padding:30px 60px 30px 30px;
+    margin:-4px;
+    font-size:1.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:2px solid lightgrey;
+}
+
